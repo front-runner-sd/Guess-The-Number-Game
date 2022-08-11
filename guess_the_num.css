@@ -12,7 +12,7 @@ section{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #161623;
+    background: #1a2316;
     overflow: hidden;
 }
 section:before{  
@@ -413,13 +413,15 @@ button.modify_b:disabled{
     width: 330px;
   }
   #user{
-    width : 300px;
+    width : 280px;
   }
   .start{
     width: 90px;
     margin-left: 1rem;
     text-align: center;
     padding-left: 1.65rem;
+    height: 35px;
+    padding-top: 7px;
   }
   div.chance{
     width: 110px;
@@ -429,28 +431,50 @@ button.modify_b:disabled{
     margin-right: 1rem;
   }
   div.textarea{
-    font-size: 1.25rem;
+    font-size: 1.35rem;
+    margin-bottom: 0.31rem;
+    font-weight: 600;
+  }
+  div.modify{
+    width: 350px;
   }
   div.toobig{
     width: 140px;
     margin-left: 2rem;
     font-size: 0.80rem;
+    height: 40px;
   }
   div.toosmall{
     width: 140px;
     margin-right: 2rem;
     font-size: 0.80rem;
+    height: 40px;
+  }
+  .check-edge{
+    height: 40px;
+  }
+  .check-pushable{
+    height: 40px;
+  }
+  .check-front{
+    height: 40px;
+  }
+  div.invalid{
+    height: 40px;
   }
   div.almost{
     width: 140px;
     margin-left: 2rem;
     font-size: 0.80rem;
+    height: 40px;
   }
   button#success{
     width: 140px;
     margin-right: 2rem;
     font-size: 0.80rem;
+    height: 40px;
   }
+
   *{  
     -webkit-touch-callout: none;
 -webkit-user-select: none;
